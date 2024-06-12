@@ -56,6 +56,6 @@ This is our private jet operators Alliance, Hack a Jet!
 
 ## Authors
 
-- [@marietazetta](https://github.com/marietazetta)
-
 - [@drialis](https://github.com/Drialis)
+
+- [@marietazetta](https://github.com/marietazetta)
