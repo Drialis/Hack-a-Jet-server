@@ -1,0 +1,185 @@
+{
+  "operators": [
+    {
+      "id": 5,
+      "company": "Horizon Line ",
+      "logo": "https://res.cloudinary.com/du8mlfcf9/image/upload/v1715871265/HorizonLine_wdwbam.png",
+      "description": "Horizon Line prioritizes luxury and personalized service. We offer a fleet of modern, spacious jets for comfortable travel to any destination. Our focus is on exceeding expectations for those discerning travelers who value privacy and efficiency.",
+      "services": {
+        "lounge": true,
+        "transfer": true
+      }
+    },
+    {
+      "id": 6,
+      "company": "Azure Wings",
+      "logo": "https://res.cloudinary.com/du8mlfcf9/image/upload/v1715871447/AzureWings_ftr7n6.png",
+      "description": "Azure Wings takes you beyond first class. Soar through clear, azure skies on our private jets, designed for unmatched comfort and discretion.  We curate personalized travel experiences, ensuring every detail is flawless from takeoff to touchdown.  Let Azure Wings be your wings to freedom and unmatched luxury.",
+      "services": {
+        "lounge": true,
+        "transfer": false
+      }
+    },
+    {
+      "id": 7,
+      "company": "Private Skies",
+      "logo": "https://res.cloudinary.com/du8mlfcf9/image/upload/v1715871461/PrivateSkies_vr7vjj.png",
+      "description": "Private Skies elevates the private jet experience.  Unwind in our impeccably maintained fleet, designed for comfort and productivity.  Our dedicated team anticipates your needs, ensuring a seamless journey wherever your private sky awaits.  Fly private Skies – Where discretion meets unparalleled service.",
+      "services": {
+        "lounge": true,
+        "transfer": true
+      }
+    }
+  ],
+  "aircrafts": [
+    {
+      "model": "Citation Latitude",
+      "manufacturer": "Cessna",
+      "registration": "EC-NVS",
+      "yom": "2022",
+      "pax_capacity": "6",
+      "main_image": "https://www.gestair.com/user/themes/gestair/assets/flota/igURV7dwvQaMmLo.jpg",
+      "images_url": [
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715763969/latitudeFront_rlmnyx.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715763963/latitudeCockpit_zogako.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715763962/latitudeinterior1_qulvik.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715763961/latitudeinterior2_ksiqrc.jpg"
+      ],
+      "range": "5000",
+      "homebase": "LEBL",
+      "catering": "Cold catering",
+      "description": "Cessna's Citation Latitude is a midsize jet favored for its roomy stand-up cabin, excellent range for long trips, and smooth operation at a competitive price.",
+      "services": {
+        "flight_attendant": true,
+        "wifi": true,
+        "telephone": false
+      },
+      "operatorId": 5,
+      "id": 8
+    },
+    {
+      "model": "Citation XLS+",
+      "manufacturer": "Cessna",
+      "registration": "F-HSFA",
+      "yom": "2021",
+      "pax_capacity": "8",
+      "main_image": "https://www.gestair.com/user/themes/gestair/assets/flota/fqYMrl2xpeaIP0K.jpg",
+      "images_url": [
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764246/citationxlsinterior2_sloqp4.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764246/citationxlsinterior3_wrsfu6.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764245/citationxlsinterior_wbmu3u.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764245/citationxlsinterior4_wmplux.jpg"
+      ],
+      "range": "3300",
+      "homebase": "LFPB",
+      "catering": "Cold catering",
+      "description": "Citation XLS+ is a business jet offering comfortable seating for up to 8 passengers and efficient travel for mid-range trips, reaching destinations over 2,500 nautical miles away.",
+      "services": {
+        "flight_attendant": true,
+        "wifi": true,
+        "telephone": false
+      },
+      "operatorId": 6,
+      "id": 9
+    },
+    {
+      "model": "Pilatus PC-24",
+      "manufacturer": "PILATUS",
+      "registration": "EC-NRO",
+      "yom": "2021",
+      "pax_capacity": "7",
+      "main_image": "https://www.gestair.com/user/themes/gestair/assets/flota/njgPlrYxHeSfT1J.jpg",
+      "images_url": [
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764389/pc24cockpit_l4mtyw.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764389/pc24interior_jrnuw3.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764385/pc24interior3_amcyvu.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764384/pc24interior2_v9g4i6.jpg"
+      ],
+      "range": "2700",
+      "homebase": "LEMD",
+      "catering": "Drinks",
+      "description": "The Pilatus PC24 is a Swiss business jet known for its surprisingly spacious cabin and ability to land on short, unpaved runways, making it perfect for reaching remote destinations in style.",
+      "services": {
+        "flight_attendant": false,
+        "wifi": true,
+        "telephone": false
+      },
+      "operatorId": 7,
+      "id": 10
+    },
+    {
+      "model": "Gulfstream G650",
+      "manufacturer": "Gulfstream",
+      "registration": "EC-LPM",
+      "yom": "2015",
+      "pax_capacity": "14",
+      "main_image": "https://www.gestair.com/user/themes/gestair/assets/flota/h7Tp6q9dU0rXu4A.jpg",
+      "images_url": [
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764872/g650interior_iue2o1.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764872/g650exterior_chacvg.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764873/g650interior2_zy0p3o.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764872/g650interior3_fobona.jpg"
+      ],
+      "range": "13000",
+      "homebase": "EHAM",
+      "catering": "Hot catering",
+      "description": "G650, the undisputed king of long-distance jets, offering globe-spanning range and unparalleled comfort for the ultimate private travel experience.",
+      "services": {
+        "flight_attendant": true,
+        "wifi": true,
+        "telephone": true
+      },
+      "operatorId": 5,
+      "id": 11
+    },
+    {
+      "model": "Challenger 605",
+      "manufacturer": "Bombardier",
+      "registration": " 9H-OWI",
+      "yom": "2018",
+      "pax_capacity": "10",
+      "main_image": "https://www.gestair.com/user/themes/gestair/assets/flota/UcEH0NFdxf9Y2yh.jpg",
+      "images_url": [
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764993/challenger605interior_n8lrt4.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764996/challenger605interior2_jdqfdk.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764994/challenger605interior3_isn3h9.jpg",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715764995/challenger605cockpit_pkswng.jpg"
+      ],
+      "range": "7300",
+      "homebase": "EDDB",
+      "catering": "",
+      "description": "Bombardier's Challenger 605 boasts a transatlantic range and the widest cabin in its class, ideal for luxurious long-distance flights with ample space.",
+      "services": {
+        "flight_attendant": true,
+        "wifi": true,
+        "telephone": false
+      },
+      "operatorId": 6,
+      "id": 12
+    },
+    {
+      "model": "AIRBUS ACJ330",
+      "manufacturer": "AIRBUS",
+      "registration": "EC-PRA",
+      "yom": "1991",
+      "pax_capacity": "20",
+      "main_image": "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715934178/Captura_de_pantalla_2024-05-17_a_las_10.21.44_yrp4so.png",
+      "images_url": [
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715934179/Captura_de_pantalla_2024-05-17_a_las_10.22.00_zqfoth.png",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715934175/Captura_de_pantalla_2024-05-17_a_las_10.22.29_qavqa7.png",
+        "https://res.cloudinary.com/dzncdwx7u/image/upload/v1715934179/Captura_de_pantalla_2024-05-17_a_las_10.22.17_iggv3a.png"
+      ],
+      "range": "17000",
+      "homebase": "LEAM",
+      "catering": "Hot catering",
+      "description": "The Airbus ACJ330 is a private jet palace. It whisks you non-stop around the world in a spacious. Fly for over 21 hours and enjoy work, socialize, or simply relax knowing you'll arrive refreshed at your global destination.",
+      "services": {
+        "flight_attendant": true,
+        "wifi": true,
+        "telephone": true
+      },
+      "operatorId": 7,
+      "id": 13
+    }
+  ]
+}
